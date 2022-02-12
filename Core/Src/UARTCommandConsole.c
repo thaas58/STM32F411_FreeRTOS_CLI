@@ -71,7 +71,7 @@ extern UART_HandleTypeDef huart2;
  * The task that implements the command console processing.
  */
 static void prvUARTCommandConsoleTask( void *pvParameters );
-void vUARTCommandConsoleStart( uint16_t usStackSize, UBaseType_t uxPriority );
+//void vUARTCommandConsoleStart( uint16_t usStackSize, UBaseType_t uxPriority );
 
 /*-----------------------------------------------------------*/
 
