@@ -174,6 +174,8 @@ standard names. */
   the output butter.  See the FreeRTOS+CLI documentation for more information:
   http://www.FreeRTOS.org/FreeRTOS-Plus/FreeRTOS_Plus_CLI/ */
 #define configCOMMAND_INT_MAX_OUTPUT_SIZE			1024
+#define configUART_COMMAND_CONSOLE_TASK_PRIORITY	( 3U )
+#define configUART_COMMAND_CONSOLE_STACK_SIZE		( configMINIMAL_STACK_SIZE * 2 )
 /* USER CODE END Defines */
 
 #endif /* FREERTOS_CONFIG_H */
