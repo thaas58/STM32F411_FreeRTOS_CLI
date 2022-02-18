@@ -6,4 +6,4 @@ Target hardware: Nucleo 64-F411RE
 CLI Interface: UART, Baudrate? 8N1
 
  - [x] Verify UART interface
- - [] Verify USB CDC interface
+ - [ ] Verify USB CDC interface
