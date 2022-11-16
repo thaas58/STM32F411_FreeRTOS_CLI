@@ -127,7 +127,7 @@ BaseType_t xReturned;
 	/* Send the welcome message. */
 	//vSerialPutString( xPort, ( signed char * ) pcWelcomeMessage ) );
 //	}
-        HAL_UART_Transmit(&huart2, (uint8_t *) pcWelcomeMessage, strlen( ( char * ) pcWelcomeMessage ) ,strlen( ( char * ) pcWelcomeMessage ) );
+    HAL_UART_Transmit(&huart2, (uint8_t *) pcWelcomeMessage, strlen( ( char * ) pcWelcomeMessage ) ,strlen( ( char * ) pcWelcomeMessage ) );
         
 	for( ;; )
 	{
